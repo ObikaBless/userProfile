@@ -1,0 +1,32 @@
+.content-wrapper{
+    background: green;
+    display: flex;
+    justify-content: center;
+}
+.MyForm{
+    background: red;
+    width: 40rem;
+    height: auto;
+    text-align: center;
+    margin: 3rem;
+}
+.parent_inputs{
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    align-items: center;
+    color: green;
+    gap: 2rem;
+    font-size: 15px;
+}
+.inputs{
+    width: 25rem;
+    height: 3rem;
+    border-radius: 2px;
+    border: 2px solid orange;
+    background-color: black;
+}
+label{
+    color: blue;
+    display: flex;
+}

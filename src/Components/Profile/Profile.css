@@ -1,0 +1,38 @@
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container-wraper{
+    background-color: white;
+    width: 29rem;
+    height: auto;
+    text-align: center;
+    margin: 3rem;
+}
+.wraper{
+    margin: 3rem;
+}
+.image{
+    height: 100%;
+    border-radius: 100%;
+    border: 2px solid rgb(215, 215, 215);
+    height: 9rem;
+    width: 9rem;
+    margin-bottom: 1rem;
+}
+.bio{
+    margin-top: 4px;
+}
+.member{
+    margin-top: 1rem;
+}
+.btn{
+    border: 2px solid yellowgreen;
+    width: 6rem;
+}
