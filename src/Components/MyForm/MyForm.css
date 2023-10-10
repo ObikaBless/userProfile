@@ -1,32 +1,50 @@
 .content-wrapper{
-    background: green;
+    background: whitesmoke;
     display: flex;
     justify-content: center;
 }
 .MyForm{
-    background: red;
+    background: rgba(220, 220, 220, 0.233);
     width: 40rem;
     height: auto;
     text-align: center;
     margin: 3rem;
 }
 .parent_inputs{
-    display: flex;
+    display: grid;
     justify-content: center;
-    justify-self: center;
     align-items: center;
-    color: green;
-    gap: 2rem;
+    color: black;
+    gap: 3px;
     font-size: 15px;
+    padding: 12px 20px;
 }
-.inputs{
+.inputs, select{
     width: 25rem;
     height: 3rem;
     border-radius: 2px;
     border: 2px solid orange;
-    background-color: black;
+    background-color: white;
+    outline: none;
+}
+.Imginputs{
+    border-radius: 2px;
+    outline: none;
+    margin-right: 8rem;
 }
 label{
-    color: blue;
-    display: flex;
+    margin-right: 299px;
+}
+.formBtn{
+    background-color: white;
+    color: black;
+    width: 9rem;
+    height: 3rem;
+    outline: none;
+    border: 2px solid orange;
+    border-radius: 3px;
+}
+.formBtn:hover{
+    background-color: orange;
+    color: white;
 }

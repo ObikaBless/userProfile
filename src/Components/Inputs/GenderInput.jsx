@@ -4,13 +4,13 @@ import { Controller } from 'react-hook-form';
 function NameInput({ control, errors }) {
   return (
     <div className='parent_inputs'>
-      <label htmlFor="fullName">Select Gender</label>
+      <label htmlFor="fullName"></label>
       <Controller
         name="fullName"
         control={control}
         rules={{ required: 'Name is required' }}
         render={({ field }) => (<select {...field}>
-            <option value="">Select</option>
+            <option value="">Select Gender</option>
             <option value="John">Male</option>
             <option value="Jane">Female</option>
             {/* Add more options as needed */}

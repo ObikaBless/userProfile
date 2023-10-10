@@ -18,18 +18,20 @@ function MyForm() {
 
   return (
     <section className='content-wrapper'>
-          <form onSubmit={handleSubmit(onSubmit)} className='MyForm'>
-      <NameInput control={control} errors={errors} />
-      <EmailInput control={control} errors={errors} />
-      <LocationInput control={control} errors={errors}/>
-      <PhoneNumberInput control={control} errors={errors}/>
-      <ImageInput control={control} errors={errors}/>
-      <BioInput control={control} errors={errors}/>
-      <GenderInput control={control} errors={errors}/>
+      <form onSubmit={handleSubmit(onSubmit)} className='MyForm'>
+        <NameInput control={control} errors={errors} />
+        <EmailInput control={control} errors={errors} />
+        <LocationInput control={control} errors={errors} />
+        <PhoneNumberInput control={control} errors={errors} />
+        <ImageInput control={control} errors={errors} />
+        <BioInput control={control} errors={errors} />
+        <GenderInput control={control} errors={errors} />
 
-      <button type="submit">Submit</button>
-      <button type="button" onClick={() => reset()}>Reset</button>
-    </form>
+        <div className='flex justify-center gap-[3rem] text-xl text-white mt-6 mb-6'>
+        <button className='formBtn' type="submit">Submit</button>
+        <button className='formBtn' type="button" onClick={() => reset()}>Reset</button>
+        </div>
+      </form>
     </section>
   );
 }
