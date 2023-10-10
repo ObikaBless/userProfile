@@ -7,8 +7,7 @@ import MyForm from '../MyForm/MyForm';
 const Login = () => {
   return (
     <div className='bg-orange-400'>
-   
-
+      <p></p>
     </div>
   )
 }

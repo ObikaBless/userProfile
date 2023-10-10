@@ -1,15 +1,19 @@
 import React from "react";
 import SignUp from "./Components/SignUp/SignUp";
 import Login from "./Components/Login/Login";
-import Profile from "./Components/Profile/Profile";
-// import { Routes, Route} from 'react-router-dom'
+import {BrowserRouter as Router,Routes,Route,Redirect,} from "react-router-dom";
 
 function App() {
   return (
     <React.Fragment>
-      <SignUp/>
-      <Login/>
-      <Profile/>
+
+
+        <Routes>
+          <Route exact path="/" Component={SignUp}/>
+          <Route  path="/Login" Component={Login}/>
+        </Routes>
+
+     
     </React.Fragment>
   );
 }
